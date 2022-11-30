@@ -6,7 +6,6 @@ const light = gsap.timeline({
     scrollTrigger: {
         trigger: "#light-container",
         endTrigger: "#end-container",
-        markers: true,
         pin: true,
         scrub: true,
         start: "top 10%"
