@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Playfair+Display:wght@600&display=swap');
+body{
+    background-color: rgb(28, 30, 33);
+    color: rgb(206, 206, 206);
+}
+h1{
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-size: 100px;
+}
+h2{
+    font-family: "Playfair Display", serif;
+    font-size: 50px;
+    text-align: center;
+    flex-basis: 100%;
+}
+p{
+    font-family: "Fira Sans", sans-serif;
+    font-size: 20px;
+}
+a{
+    color:rgb(202, 173, 27);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 10vh;
+}
+.credit-container{
+    text-align: center;
+    position: fixed;
+    width: 100vw;
+    top: 10vh;
+}
+.container-nw{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.side-text{
+    flex-basis: 50%;
+    padding: 3vw;
+}
+.side-image{
+    flex-basis: 50%;
+    max-width: 50vw;
+    max-height: 60vh;
+}
+#tips{
+    margin-top: 10vh;
+    text-align: center;
+    font-size: 30px;
+}
+#scroll{
+    text-align: center;
+    margin: 10vh 0 10vh 0;
+}
+#scroll-btn{
+    border: 3px solid rgb(206, 206, 206);
+    color: rgb(206, 206, 206);
+    border-radius: 100%;
+    font-size: 50px;
+    padding: 12px 27px 12px 27px;
+    background-color: transparent;
+}
+#end-container{
+    height: 500vh;
+}
+#intro{
+    position: fixed;
+    left: 30vw;
+}
