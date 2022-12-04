@@ -69,5 +69,6 @@ a{
 }
 #intro{
     position: fixed;
-    left: 30vw;
+    width: 70vw;
+    left: 15vw;
 }
